@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.nav{
+    margin-left: 200px;
+}
+.logo{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    margin-top: 30px;
+}
+.search{
+    border: 1px solid #F7941D;
+}
+.btn{
+    background-color: #F7941D;
+    color: #fff;
+}
+.btn:hover{
+    background: none;
+    border: 1px solid #EF4136;
+    color: #EF4136;
+}
+.user{
+    padding: 4px;
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.banner{
+    margin-top: 50px;
+}
+.product_box{
+    margin-top: 50px;
+    font-size: .7rem;
+}
+.product_icon{
+    width: 175px;
+    outline: none;
+    border: 2px solid #F7941D;
+    border-radius: 25px;
+    background:none;
+    margin-left: 5px;
+}
+.product_icon:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .5s;
+    background-color: #fff;
+    border: 2px solid #EF4136;
+    font-size: 1rem;
+}
+.product_icon img{
+    width: 150px;
+    padding: 10px;
+    border: none;
+}
+
+
+
+.best-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    border: none;
+}
+.best-product img{
+    border: none;
+}
+.best-product h2{
+    font-size: 2.5rem;
+}
+.best-product p img{
+    width: 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.top_product{
+    padding: 10px;
+    text-align: center;
+}
+.top_product .card{
+    border: 2px solid #F7941D;
+    border-radius: 40px;
+}
+.all_product{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+.review{
+    padding: 50px 0px;
+}
+.review img{
+    width: 200px;
+}
+
+
+
+
+footer{
+    display: flex;
+}
+.service{
+    font-size: .7rem;
+    color: #26201E;
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand .icon .bx{
+    color: #26201E;
+    font-size: 2rem;
+    padding: 10px;
+}
+.foot_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot_nav li{
+    list-style: none;
+    padding-bottom: 20px;
+    font-size: .7rem;
+}
+.foot_nav li a{
+    text-decoration: none;
+    color: #26201E;
+}
+
+
+
+
+.copyright{
+    background-color: #26201E;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: .7rem;
+}
