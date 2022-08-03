@@ -45,8 +45,11 @@ header{
     margin-top: 50px;
 }
 .product_box{
+    width: auto;
+    margin: auto;
     margin-top: 50px;
     font-size: .7rem;
+    text-align: center;
 }
 .product_icon{
     width: 175px;
