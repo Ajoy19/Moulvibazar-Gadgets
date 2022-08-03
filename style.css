@@ -57,7 +57,7 @@ header{
     border: 2px solid #F7941D;
     border-radius: 25px;
     background:none;
-    margin-left: 5px;
+    margin: 4px;
 }
 .product_icon:hover{
     transform: scale(1.1);
